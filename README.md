@@ -10,7 +10,7 @@ operator-sdk new ${OPERATOR_NAME} --api-version=example.com/v1 \
 create a new operator type: ansible
 ```bash
 OPERATOR_NAME=visitors-ansible-operator
-$ operator-sdk new $OPERATOR_NAME --api-version=example.com/v1 \
+operator-sdk new $OPERATOR_NAME --api-version=example.com/v1 \
   --kind=VisitorsApp --type=ansible
 ```
 
