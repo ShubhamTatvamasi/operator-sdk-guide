@@ -14,3 +14,8 @@ operator-sdk new $OPERATOR_NAME --api-version=example.com/v1 \
   --kind=VisitorsApp --type=ansible
 ```
 
+create a new operator type: go
+```bash
+operator-sdk new visitors-operator --repo github.com/ShubhamTatvamasi/visitors-operator
+```
+> `go` is the default type
