@@ -24,3 +24,8 @@ add API in operator
 ```bash
 operator-sdk add api --api-version=example.com/v1 --kind=VisitorsApp
 ```
+
+generate code for deployment
+```bash
+operator-sdk generate k8s
+```
