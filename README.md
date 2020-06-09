@@ -29,3 +29,9 @@ generate code for deployment
 ```bash
 operator-sdk generate k8s
 ```
+
+add the controller
+```bash
+operator-sdk add controller --api-version=example.com/v1 --kind=VisitorsApp
+```
+
