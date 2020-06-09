@@ -19,3 +19,8 @@ create a new operator type: go
 operator-sdk new visitors-operator --repo github.com/ShubhamTatvamasi/visitors-operator
 ```
 > `go` is the default type
+
+add API in operator
+```bash
+operator-sdk add api --api-version=example.com/v1 --kind=VisitorsApp
+```
